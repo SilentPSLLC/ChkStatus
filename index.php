@@ -6,10 +6,9 @@
  *   COPYRIGHT: ©Copyright 2012-2025 - All Rights Reserved
  */
 
-
-###########CONFIGURATION###########
+## CONFIGURATION ##
 $Home_Page = "Pages/Home.php"; //Default Home page
-$Maint_Page = "Pages/Maintenance.php"; //Maintence page
+$Maint_Page = "Pages/Maintenance.php"; //Maintenance page
 $Error_Page = "404.php";
 
 #$server_status = $_SESSION['status']; //Set server status as a variable
