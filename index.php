@@ -10,14 +10,7 @@
 $Home_Page = "Pages/Home.php"; //Default Home page
 $Maint_Page = "Pages/Maintenance.php"; //Maintenance page
 $Error_Page = "404.php";
-
-#$server_status = $_SESSION['status']; //Set server status as a variable
-$server_status = "0";
-
-#SERVER STATUS MEANINGS & CODES
-# Code 1: Under Construction
-# Code 2: Offline (Shutdown) [TODO: Beta Testing Maybe? Via IP Filter]
-# Code 3: Offline (Connect Error)
+$server_status = 0; //Set server status of the website to 0 for normal or 1 for Maintenance
 
  switch($server_status)
  {
