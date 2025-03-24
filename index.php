@@ -1,16 +1,15 @@
 <?php
-/*-----------------INFORMATION & LICENSING-----------------
- *      AUTHOR: Christopher Sparrowgrove | CodeStrm
+/*      AUTHOR: Christopher Sparrowgrove | CodeStrm
  *     WEBSITE: https://CodeStrm.com
- *        NAME: BullFrog | PHP Hypertext Processor (PHP)
- * DESCRIPTION: Checks Operating status of website displaying the aproperate page
- *   COPYRIGHT: ©Copyright 2012-2022 - All Rights Reserved
+ *        NAME: ChkStatus | BullFrog
+ * DESCRIPTION: Checks Operating status of website displaying the aproperate page. Effective simple maintenance page display tool.
+ *   COPYRIGHT: ©Copyright 2012-2025 - All Rights Reserved
  */
 
 
 ###########CONFIGURATION###########
 $Home_Page = "Pages/Home.php"; //Default Home page
-$Maint_Page = "Pages\Maintenance.php"; //Maintence page
+$Maint_Page = "Pages/Maintenance.php"; //Maintence page
 $Error_Page = "404.php";
 
 #$server_status = $_SESSION['status']; //Set server status as a variable
